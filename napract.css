@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+.shapka
+{
+	text-align:center;
+	margin: 0px auto;
+
+}
+.shapka span{
+	font-size:20px;
+
+}
+.shapka h1{
+			font-size:30px;
+	font-weight: 0;
+
+}
+ table  #border_s{
+ 	/*Підкреслення після SQL*/
+	border-bottom:5px solid maroon;
+}
+#skladnist{
+	padding: 5px 0px;
+	width:70px;
+	text-align: center;
+}
+#korbstyvachiv{
+	padding: 5px 5px;
+	text-align: center;
+	width:200px;
+	margin-top:10px;
+}
+
+body{
+	font-family: 'Arsenal', sans-serif;
+
+	font-weight: 100;
+	background-image: url("boxed-bg.jpg");
+}
+table{
+	font-size: 1px;
+}
+.left{
+	text-align: left;
+	font-size:30;
+}
+.bg{
+	background-color: white;
+	width:1100px;
+	border-top:2px solid #eee;
+	border-bottom:2px solid #eee;
+}
+
+.maintable{
+	background-color: white;
+	margin:0 auto;
+	border-top:2px solid #566873;
+}
+table tr th h5 {padding: 10px;}
+table tr th{
+
+	border-bottom:2px solid #eee;
+}
+table tr:hover{
+background-color: #e6e6e6;
+}
+ul.css-menu-3 {
+		list-style: none;
+
+				
+}
+.icon{
+	margin-top:10px;
+}
+			
+
+
+.glyphicon glyphicon-usd
+{
+	width:15435px;
+}
+		
+
+.q
+{ font-size: 25px; 
+   /* border-bottom: 2px solid maroon; */
+ 
+	}
+	
+.java
+{
+	font-size: 14px;
+	margin-top: 18px;
+	padding: 0;
+		margin-left:30px;
+		font-weight:900;
+		margin-bottom:18px;
+}
+.Perl
+{
+	font-size: 14px;
+	margin-top: 18px;
+	padding: 0;
+		margin-left:30px;
+		font-weight:900;
+		margin-bottom:18px;
+}
+.form
+{
+font-size: 14px;
+	margin-top: 18px;
+	padding: 0;
+		margin-left:30px;
+		font-weight:900;
+		margin-bottom:18px;
+}
+.BD
+{
+	
+font-size: 14px;
+	margin-top: 18px;
+	padding: 0;
+		margin-left:30px;
+		font-weight:900;
+		margin-bottom:18px;
+		
+}
+
+.butt3
+{
+	outline:none;
+	border:2px solid #50595f;
+	cursor: pointer;
+	background-color:#5b6e79;
+	width:200px;
+	padding: 6px 12px;
+
+	 border-radius:3px;
+
+	 color:white;
+	 border-top: 14px;
+}
+.centred{
+	height:150px;
+	text-align: center;
+	margin:0 auto;
+}
+
+.r
+{
+	text-align: center;
+}
+.qwerty
+{
+	margin-top:0 px;
+	padding:0px;
+}
