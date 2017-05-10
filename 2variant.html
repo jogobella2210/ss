@@ -1,0 +1,213 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Підтримка</title>
+<link href="napract.css" rel="stylesheet" type="text/css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<style>
+   table {width: 1100px; border-spacing: 0; }
+  
+  </style>
+</head>
+<body>
+
+<script language="JavaScript">
+<!--
+
+//-->
+
+function myFunction(ivent ) {
+    ivent.preventDefault();
+    var form2 = document.forms[0]; 
+    var sas = 0;
+
+
+
+        for (var j = 0; j < form2.length; j++){
+        	if (form2[j].checked) {
+    	sas += parseInt(form2[j].value);
+		
+    		}
+			
+    }
+	var array=[0,1,2,3,5,8,13,21,34];
+    document.getElementById("skladnist").value =  array[sas];
+ //===============================================================
+}
+
+function update(){location.reload(true)}
+</script>
+
+
+<div class="shapka">
+	<center><img style="width:70px; position: absolute; margin-left: -180px;" src="support.png"></center>
+           <h1 > <br><span></span></h1>
+
+		   
+           </div>
+
+
+
+
+<form method="POST">
+
+   
+		<table class="maintable" height="10px" border="0" cellpadding="10">
+				
+
+					<tr>
+
+<th class="left">
+  <h5 class="Perl"> Використання Perl</h5>
+  </th>
+<th>
+ 
+
+ </th>
+ <th width="72px">
+   <div class='checkbox'>
+   <p align='left'><label><input onchange="myFunction(event)"  type='checkbox' value="1" id="CHEK_1" name='CHEK_2'><strong>+1<span class='glyphicon glyphicon-usd'></span></strong></label></p>
+   </div>
+</th>
+
+</tr>
+
+
+
+
+
+<!--END: -->
+<!--START:  -->
+ 
+<tr>
+
+<th class="left">
+  <h5 class="java"> Використання JavaScript</h5>
+  </th>
+<th>
+ 
+
+ </th>
+ <th>
+   <div class='checkbox'>
+   <p align='left'><label><input  type='checkbox'onchange="myFunction(event)" value="1" id="CHEK_2"  name='CHEK_3'><strong>+1<span class='glyphicon glyphicon-usd'></span></strong></label></p>
+   </div>
+</th>
+
+</tr>
+
+
+
+
+
+<!--END: -->
+<!--START:  -->
+ 
+ 
+
+
+
+<!--END: -->
+<!--START:  -->
+ 
+<tr>
+
+<th class="left">
+  <h5 class="form">Cтворення форми</h5>
+  </th>
+<th>
+ <h5>
+  
+ </h5>
+ </th>
+ <th>
+   <div class='checkbox'>
+   <p align='left'><label><input  type='checkbox' onchange="myFunction(event)" value="1" id="CHEK_4" name='CHEK_5'><strong>+1<span class='glyphicon glyphicon-usd'></span></strong></label></p>
+   </div>
+</th>
+
+</tr>
+
+
+
+
+
+<!--END: -->
+<!--START:  -->
+ 
+<tr>
+
+<th class="left">
+  <h5 class="BD">Робота з базами даних</h5>
+  </th>
+<th>
+ <h5>
+
+ </h5>
+ </th>
+ <th>
+   <div class='checkbox'>
+   <p align='left'><label><input  type='checkbox' onchange="myFunction(event)" value="1" id="CHEK_5" name='CHEK_6'><strong>+1<span class='glyphicon glyphicon-usd'></span></strong></label></p>
+   </div>
+</th>
+
+</tr>
+
+<tr>
+
+<th class="left">
+  <h5 class="BD">Робота з зовнішнім обладнанням</h5>
+  </th>
+<th>
+ <h5>
+
+ </h5>
+ </th>
+ <th>
+   <div class='checkbox'>
+   <p align='left'><label><input  type='checkbox' onchange="myFunction(event)" value="1" id="CHEK_5" name='CHEK_6'><strong>+1<span class='glyphicon glyphicon-usd'></span></strong></label></p>
+   </div>
+</th>
+
+</tr>
+
+<th class="left">
+  <h5 class="BD">Робота з зовнішнім API</h5>
+  </th>
+<th>
+ <h5>
+
+ </h5>
+ </th>
+ <th>
+   <div class='checkbox'>
+   <p align='left'><label><input  type='checkbox' onchange="myFunction(event)" value="1" id="CHEK_5" name='CHEK_6'><strong>+1<span class='glyphicon glyphicon-usd'></span></strong></label></p>
+   </div>
+</th>
+
+</tr>
+
+
+
+
+			
+			</table>
+      <br>
+       <div class="centred bg">
+		
+      <h3 class="qwerty">Cкладність поставленої задачі:  <input type="text" name="skladnist0" id="skladnist" value="0" disabled="disabled"><br>
+              <br><h3>
+      			<br>
+ 
+						
+						
+						<input  <a class="butt3"  id="Button3" onclick="update()" type="button" value="Сбросить" />
+              <br><br><br>
+              </div>
+
+							
+</form>
+ 
+
+</body>
+</html>
